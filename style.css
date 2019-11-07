@@ -1,0 +1,136 @@
+
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background: #2c3e50;
+    overflow: hidden;
+}
+
+.toggle
+{
+    background: #3498db;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toggle i
+{
+    font-size: 60px;
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    transition: 0.7s;
+}
+
+.menu
+{
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    border: 2px solid #e74c3c;
+    transition: 0.7s;
+}
+
+.menu a
+{
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    color: #BBBBBB;
+    transition: 0.4s;
+}
+
+.menu a:nth-child(1)
+{
+    /* MICROPHONE */
+    top: 25px;
+    left: 44px;
+}
+
+.menu a:nth-child(2)
+{
+    /* PERSON */
+    bottom: 22px;
+    right: 38px;
+}
+
+.menu a:nth-child(3)
+{
+    /* MOVIE-CAMERA */
+    top: 18px;
+    left: 73px;
+}
+
+.menu a:nth-child(4)
+{
+    /* ENVELOPE */
+    bottom: 14px;
+    left: 67px;
+}
+
+.menu a:nth-child(5)
+{
+    /* CAMERA */
+    bottom: 27px;
+    left: 38px;
+}
+
+.menu a:nth-child(6)
+{
+    /* BELL */
+    bottom: 50.5px;
+    left: 21px;
+}
+
+.menu a:nth-child(7)
+{
+    /* ADDRESS-BOOK */
+    top: 50px;
+    left: 21px;
+}
+
+.menu a:nth-child(8)
+{
+    /* AD */
+    top: 34px;
+    right: 30px;
+}
+
+.menu a:nth-child(9)
+{
+    /* ADJUST */
+    bottom: 72px;
+    right: 18px;
+}
+
+.menu a:nth-child(10)
+{
+    /* TREE */
+    bottom: 43px;
+    right: 20px;
+}
+
+.menu a:hover
+{
+    color: #3498db;
+}
